@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    overflow-x: hidden;   
+}
+/*Nav Bar*/
+nav{
+    background-color:#045d5d ;  
+}
+nav .btn{
+    border: 1px solid hsla(0,0%,100%,.5);
+    
+}
+
+nav .btn:hover{
+    background-color:#045d5d ;
+    color: #fff;
+   
+    
+}
+
+
+.navbar a{
+    font-size:12px ;
+}
+.nav-item{
+    font-family: Roboto, sans-serif !important;
+    text-transform: uppercase;    
+}
+.nav-item .nav-link{
+    font-size: 14px;
+}
+nav .btn0{
+    background-color:#007C7C ;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500 !important;
+    border:1px solid #fff;
+}
+nav .btn0:hover{
+    background-color:#007C7C ;
+    color: rgb(221, 163, 17);
+    border: 1px solid rgb(221, 163, 17);
+}
+.nav-item span:hover{
+    color: rgb(221, 163, 17) ;
+    transition: 0ms;
+}
+.nav-item .nav-link1{
+    font-size: 13px; 
+    font-weight:500 !important;
+}
+.nav-item .nav-link1 p:hover{
+    color:  rgb(221, 163, 17);
+}
+
+/*Section 1*/
+
+.section1 .row{ 
+    background: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png)no-repeat;
+   
+    
+}
+.section1 .box{
+    border: 4px solid #fd5428;   
+}
+.section1 .img-fluid{
+    border: none;  
+}
+/*Section 2*/
+.section2 p{
+    font-size: 18px ;
+     font-weight: 500;
+}
+.section2 h3{
+    font-size: 24;
+    font-weight: 700;
+}
+.section2 .vaccination-status{
+    background: linear-gradient(120deg,#007c7c 50%,#04c4c4 0);
+   
+}
+
+.section2 .btn2{
+    background-color: #fcbf02;
+    border-radius: 25px;
+    color: #4d3b03;
+    font-weight: 700;
+    font-size: 13px;
+    border: 2px solid #fff;
+    padding: 8px 35px;
+}
+
+/*Section 3*/
+.section3 {
+    background-color: #EdFFFF;
+}
+
+.section3 h2{
+    color: #007C7C;
+}
+.section3 .card .card-body{
+    text-decoration: none;
+    color: white;
+}
+.section3 .card .card-body{
+    background-color: #007C7C;
+   
+}
+.step-head{
+    color: #007c7c;
+    border: 1px solid #007c7c;
+    padding: 5px 20px;
+    border-radius: 10px;
+    top: -16px;
+    position: absolute;
+    font-weight: 700;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+/*Section 4*/
+/* .section4 .btn-group{
+    border-bottom: 2px solid #212529;
+    opacity: 0.5;
+    width: 70%; 
+    justify-content: center;
+} */
+.section4 .searchcenter{
+    margin-top: 50px;
+    max-height:600px;
+   
+}
+.searchcenter .tab-menu {
+    border-bottom: 2px solid #807e7e;
+    margin-left: 150px;
+   
+    width: 900px;
+}
+.section4  .searchcenter nav {
+    font-size: 20px;
+    color: #017e7e;
+    font-weight: 500;   
+    background-color: white;
+    
+    
+}
+
+.searchcenter nav li{
+    list-style: none;
+    margin-left: 100px; 
+    display: inline; 
+    opacity: 0.5;
+    width: 70%; 
+    /* justify-content: center; */
+ 
+}
+.searchcenter nav ul li:hover {
+    padding-bottom: 18px;
+    border-bottom: 5px solid #057373;
+}
+.searchcenter nav li a{
+    text-decoration: none;
+    color: #282828;   
+    
+}
+.searchcenter nav li a:hover{
+    color: #057373;
+    
+}
+
+
+.searchcenter iframe{
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0,1),0 10px 10px rgba(0,0,0,0,1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+/*Section 5*/
+.section5 ul{
+    color:#0E1229 ;
+     opacity: 0.7; 
+     font-size:16px ; 
+     font-weight: 400; 
+     line-height: 1.5;
+      letter-spacing: 0.5px;
+}
+
+.section5,.section6,.section7,.section8,.section9,.section10,.section11 p{
+    color:#0E1229 ;
+     font-size:16px ; 
+     font-weight: 400; 
+     line-height: 1.5;
+      letter-spacing: 0.5px;
+}
+.section11 button{
+    background: transparent no-repeat center center;
+    border: 1px solid hsla(0,0%,100%,.7);
+    font-style: normal;
+    font-weight: 400;
+    color:hsla(0,0%,100%,.7) ;
+    
+}
+.section11 a{
+    text-decoration: none;
+}
+.section11 a:hover{
+    text-decoration: underline;
+}
+.section11 .card-title{
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #007c7c;
+    font-size: 15px;
+}
+.section11 .card-text{
+    letter-spacing: 0;
+    color: #282828;
+    font-weight: 500;
+    font-size: 13px;
+}
+.section11 .card{
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+/*Section12*/
+
+.section12 .accordion-button{
+    
+    background: #f6f6f6 0 0 no-repeat padding-box;
+
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 14px;
+    color: #282828;
+}
+.section12 .tab-change {
+    color: #007C7C;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    
+ 
+   
+}
+.section12 .tab-change li a{
+    color: #007C7C;
+    white-space: nowrap;
+    
+ 
+   
+}
+.accordion-button:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    color: #282828;
+}
+
+
+
+.accordion-body{
+    color: rgba(0,0,0,.87);
+    font-size: 14px;
+    background-color: #f6f6f6 ;
+}
+
+.section13 .accordion-item{
+    padding: 0;
+    min-height: 80px;
+    background-color: #f5f6f5;
+    font-weight: 500;   
+    overflow: auto;
+}
+.section13 .accordion-button{
+   
+    overflow: auto;
+    height: 85px;
+    background-color: #f5f6f5;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #007C7C;
+    text-decoration: none;
+}
+
+.section14 p{
+    color: #02aeae;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px ;
+   
+}
+
+.section15  .img-logo{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1607843137254902);
+    padding: 15px;
+    max-height: 63px;
+    min-height: 63px;
+}
+
+
+.footer_wrapper .services h5{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: #99d9d9;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    white-space: nowrap; 
+
+}
+
+.footer_wrapper li{
+    list-style: none;
+}
+.footer_wrapper li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    
+    
+}
+
+.footer_wrapper li a:hover{
+    text-decoration: underline;
+
+}
+.footer_wrapper .border-make{
+    border-bottom: 5px solid #99d9d9; 
+    width: 22px; 
+    margin-bottom: 5px;
+}
+.btn{
+    border: none;
+    outline: none;
+    
+}
+.section16 a{
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.section16 a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
